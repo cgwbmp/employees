@@ -1,7 +1,8 @@
 import { configureStore } from 'redux-starter-kit';
+import employees from './employees';
 
 const store = configureStore({
-  reducer: () => {},
+  reducer: employees,
 });
 
 export default store;
